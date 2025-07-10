@@ -15,6 +15,14 @@
     padding-bottom: 200px;
 }
 
+.dark-1 {
+    color: #252432;
+}
+
+.dark-2 {
+    color: #25243280;
+}
+
 body {
     background-color: #F5F8FF
 }
@@ -60,4 +68,35 @@ nav ul li {
     font-size: 65px;
     font-weight: bold;
     color: #252432;
+}
+
+
+/* action-web */
+
+
+.action-web {
+     display: flex;
+     justify-content: center;
+     justify-content: space-between;
+     margin: 120px 150px 0px 140px;
+}
+
+.action h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.action p {
+    font-size: 24px;
+}
+
+.action-content {
+    margin-top: 60px;
+    margin-left: 140px;
+}
+
+.action-profile {
+    border-radius: 48px;
+    border: none;
+    margin-right: 170px;
 }
