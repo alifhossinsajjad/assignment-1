@@ -255,3 +255,62 @@ nav ul li {
     gap: 50px;
     justify-content: center;
 }
+
+/* touch section */
+
+ .touch-section {
+    padding: 300px 250px;
+    display: flex;
+    gap: 100px;
+ }
+ .section-title {
+    font-size: 92px;
+    font-weight: 800;
+ }
+
+
+ .touch-column {
+    width: 50%;
+ }
+
+form input[type="text"]
+, form [type="email"] 
+ {
+    height: 35px;
+    border-radius: 15px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 400px;
+    padding: 10px 20px;
+    margin: 24px;
+    border: none;
+    font-size: 16px;
+}
+
+.touch-colom {
+    height: 200px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 24px;
+    border: none;
+    font-size: 16px;
+}
+
+
+.touch-area {
+     height: 35px;
+    border-radius: 15px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 400px;
+    padding: 50px 20px;
+    margin: 24px;
+    border: none;
+    font-size: 16px;
+}
