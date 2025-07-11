@@ -276,8 +276,8 @@ nav ul li {
 
 form input[type="text"],
 form [type="email"] {
-    height: 35px;
-    border-radius: 15px;
+    height: 55px;
+    border-radius: 7px;
     background-color: white;
     color: #757575;
     display: block;
@@ -317,7 +317,7 @@ form [type="email"] {
 
 /* button color */
 .submit-button {
-    width: 68%;
+    width: 65%;
 }
 
 .submit-button:hover {
