@@ -1,8 +1,8 @@
-.raleway {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
     font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
 }
 
 .hero {
@@ -258,24 +258,24 @@ nav ul li {
 
 /* touch section */
 
- .touch-section {
+.touch-section {
     padding: 300px 250px;
     display: flex;
     gap: 100px;
- }
- .section-title {
+}
+
+.section-title {
     font-size: 92px;
     font-weight: 800;
- }
+}
 
 
- .touch-column {
+.touch-column {
     width: 50%;
- }
+}
 
-form input[type="text"]
-, form [type="email"] 
- {
+form input[type="text"],
+form [type="email"] {
     height: 35px;
     border-radius: 15px;
     background-color: white;
@@ -303,7 +303,7 @@ form input[type="text"]
 
 
 .touch-area {
-     height: 35px;
+    height: 35px;
     border-radius: 15px;
     background-color: white;
     color: #757575;
@@ -313,4 +313,16 @@ form input[type="text"]
     margin: 24px;
     border: none;
     font-size: 16px;
+}
+
+/* button color */
+.submit-button {
+    width: 68%;
+}
+
+.submit-button:hover {
+    background: rgba(13, 8, 44, 0.578);
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
 }
