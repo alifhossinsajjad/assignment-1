@@ -1,12 +1,12 @@
 .raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
-.hero{
-    background-image: url(/assets/Hero-bg.png);
+.hero {
+    background-image: url(./assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,6 +23,10 @@
     color: #25243280;
 }
 
+.dark-3 {
+    color: #4E47FF;
+}
+
 body {
     background-color: #F5F8FF;
 }
@@ -30,21 +34,21 @@ body {
 .btn-primary {
     background-color: #4E47FF;
     font-weight: bold;
-    color:white;
+    color: white;
     font-size: 16px;
     padding: 12px 36px 12px 36px;
     border-radius: 10px;
     border: none;
-    
+
 }
 
 .btn-primary:hover {
     border: 1px solid #bbbbbb;
     background: #bbbbbb;
     transition: 1s;
-  
 
-    
+
+
 }
 
 /* header */
@@ -54,7 +58,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 50px 150px 157px 150px;
-    
+
 }
 
 nav ul li {
@@ -84,10 +88,10 @@ nav ul li {
 
 
 .action-web {
-     display: flex;
-     justify-content: center;
-     justify-content: space-between;
-     margin: 120px 150px 0px 140px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 120px 150px 0px 140px;
 }
 
 .action h1 {
@@ -128,12 +132,13 @@ nav ul li {
 
 .feedback {
     width: 350px;
-    height: 220px;
+    height: 250px;
     background-color: white;
     border-radius: 15px;
 }
 
-.feedback-user-title, .feedback-user-description{
+.feedback-user-title,
+.feedback-user-description {
     margin-left: 40px;
 }
 
@@ -164,7 +169,13 @@ nav ul li {
 
 /* productive section */
 
-
+.productive {
+    background-color: #4d47ff3d;
+    padding-top: 50px;
+    border-radius: 24px;
+    margin: 100px 160px 0px 140px;
+    height: 380px;
+}
 
 .productive-title {
     text-align: center;
@@ -185,7 +196,7 @@ nav ul li {
 }
 
 .user-2m {
-     font-size: 80px;
+    font-size: 80px;
     font-weight: 800;
 }
 
@@ -199,5 +210,45 @@ nav ul li {
 }
 
 .product-rate-p {
-     font-size: 24px;
+    font-size: 24px;
+}
+
+
+/* footer section */
+
+.footer-section {
+    background-color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 200px;
+    border: 10px solid #FFFFFF;
+    margin-top: 120px;
+    height: 400px;
+
+
+}
+
+.footer-leader {
+    align-items: center;
+    padding: 150px;
+    margin: 105px 400px 105px 400px;
+}
+
+.footer-name {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+
+.footer-sub-title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.foeter-liks-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
 }
