@@ -24,7 +24,7 @@
 }
 
 body {
-    background-color: #F5F8FF
+    background-color: #F5F8FF;
 }
 
 .btn-primary {
@@ -35,6 +35,15 @@ body {
     padding: 12px 36px 12px 36px;
     border-radius: 10px;
     border: none;
+    
+}
+
+.btn-primary:hover {
+    border: 1px solid #bbbbbb;
+    background: #bbbbbb;
+    transition: 1s;
+  
+
     
 }
 
