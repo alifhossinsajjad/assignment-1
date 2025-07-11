@@ -161,3 +161,43 @@ nav ul li {
 .feedback-saction {
     margin-top: 140px;
 }
+
+/* productive section */
+
+
+
+.productive-title {
+    text-align: center;
+}
+
+.productive-subtitle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product-h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.product-p {
+    font-size: 24px;
+}
+
+.user-2m {
+     font-size: 80px;
+    font-weight: 800;
+}
+
+.user-p {
+    font-size: 24px;
+}
+
+.product-rate-h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.product-rate-p {
+     font-size: 24px;
+}
