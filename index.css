@@ -109,3 +109,55 @@ nav ul li {
     border: none;
     margin-right: 170px;
 }
+
+/* Feedback section */
+
+.feedback-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.feedback ul li {
+    list-style: none;
+}
+
+.feedback-icon {
+    display: flex;
+}
+
+.feedback {
+    width: 350px;
+    height: 220px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.feedback-user-title, .feedback-user-description{
+    margin-left: 40px;
+}
+
+.feedback-avatar {
+    border-radius: 50px;
+    margin-bottom: 5px;
+    height: 40px;
+    margin: 20px;
+}
+
+.feedback-profile {
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+
+.feedback-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 150px 0px 150px;
+}
+
+.feedback-saction {
+    margin-top: 140px;
+}
